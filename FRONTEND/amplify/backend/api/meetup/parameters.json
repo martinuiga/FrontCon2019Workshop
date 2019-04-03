@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "meetup",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito31c02f0a",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

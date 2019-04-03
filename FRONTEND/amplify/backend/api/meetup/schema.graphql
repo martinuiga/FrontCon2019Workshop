@@ -1,0 +1,10 @@
+type Meetup @model {
+  id: ID!
+  name: String!
+  group: String!
+  location: String!
+  date: String!
+  startTime: String!
+  endTime: String!
+  description: String
+}

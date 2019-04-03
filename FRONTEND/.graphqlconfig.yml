@@ -1,0 +1,16 @@
+projects:
+  meetup:
+    schemaPath: src\graphql\schema.json
+    includes:
+      - src\graphql\**\*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src\graphql
+        graphQLApiId: xl2ebbthkvfkdhgrj4xh2blqvq
+      endpoints:
+        prod: >-
+          https://7zz4j5bzgzcpjlnq2wfsgbt3bi.appsync-api.eu-west-1.amazonaws.com/graphql

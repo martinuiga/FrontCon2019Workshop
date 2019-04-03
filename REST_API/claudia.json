@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "frontconworkshop-executor",
+    "name": "frontconworkshop",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "3kkwrwljh9",
+    "module": "api"
+  }
+}
